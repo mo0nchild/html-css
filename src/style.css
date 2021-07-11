@@ -1,0 +1,190 @@
+
+.main-container{padding-right: 16px;}
+
+.page-header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.page-title.jumbotron{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    margin-top: 56px;
+
+    padding: 0px;
+
+}
+
+.page-title button{
+    margin: 16px 0px 64px 0px; 
+    padding: 0px;
+    height: 48px; 
+    width: 201px; 
+    font-size: 20px;
+}
+
+.page-title h1{
+    padding: 0px;
+    
+    font-size: 72px;
+    margin-bottom: 15px;
+    padding-right: 16px;
+    font-weight: 300;
+
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 84px;
+}
+
+.page-title p{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+    max-width: 635px;
+}
+
+.page-card{
+    line-height: 19px;
+    margin: 0px;
+    margin: 32px 0px;
+}
+
+.page-footer{
+    background-color: #F5F5F5;
+    padding: 12px 55px;
+    padding-right: 16px;
+    color: #6C757D;
+    margin-top: 72px;
+}
+.page-footer p{
+    margin: 0px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    #profile{
+        padding: 0px 0px 0px 0px; 
+        height: 255px;
+    }
+    #state{
+        padding: 32px 0px 0px 0px; 
+        height: 200px;
+    }
+    .page-title.jumbotron{
+        padding-top: 32px;
+        padding-left: 31px; 
+    }
+    .main-container, .page-footer{padding-left: 16px;}
+    .page-title h1{
+        font-size: 48px;
+    }
+    .page-title p{
+        margin-right: 16px;
+    }
+    .page-table{overflow-x: scroll;}
+    .page-title button{
+        margin: 16px 0px 48px 0px; 
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #profile{
+        padding: 0px 15px 0px 0px; 
+        height: 380px;
+    }
+    #state{
+        padding: 0px 0px 0px 15px; 
+        height: 200px;
+    }
+    .page-title.jumbotron{
+        padding-top: 32px;
+        padding-left: 31px; 
+    }
+    .main-container, .page-footer{padding-left: 16px;}
+    .page-title h1{
+        font-size: 72px;
+    }
+    .page-title p{
+        margin-right: 94px;
+    }
+    .page-table{overflow-x: none;}
+    .page-title button{
+        margin: 16px 0px 64px 0px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #profile{
+        padding: 0px 15px 0px 0px; 
+        height: 255px;
+    }
+    #state{
+        padding: 0px 0px 0px 15px; 
+        height: 200px;
+    }
+
+    .page-title.jumbotron{
+        padding-top: 72px;
+        padding-left: 39px;
+        
+    }
+    .main-container, .page-footer{padding-left: 39px;}
+    .page-title h1{
+        font-size: 72px;
+    }
+    .page-title p{
+        margin-right: 47px;
+    }
+    .page-table{overflow-x: none;}
+    .page-title button{
+        margin: 16px 0px 64px 0px; 
+    }
+}
+
+@media screen and (min-width: 810px) {
+    #profile{
+        padding: 0px 15px 0px 0px; 
+        height: 234px;
+    }
+    #state{
+        padding: 0px 0px 0px 15px; 
+        height: 182px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #profile{
+        padding: 0px 15px 0px 0px; 
+        height: 234px;
+    }
+    #state{
+        padding: 0px 0px 0px 15px; 
+        height: 165px;
+    }
+
+    .page-title.jumbotron{
+
+        padding-top: 64px;
+        padding-left: 55px;
+        
+    }
+    .page-title h1{
+        font-size: 72px;
+    }
+    .page-title p{
+        margin-right: 94px;
+    }
+    .main-container, .page-footer{padding-left: 55px;}
+    .page-table{overflow-x: none;}
+
+    .page-title button{
+        margin: 16px 0px 64px 0px; 
+    }
+}
+

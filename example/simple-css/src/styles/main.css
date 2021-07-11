@@ -1,0 +1,81 @@
+.page-content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.page-content .no-space{
+    position: relative;
+    height: 84px;
+    text-align: center;
+    background-color: crimson;
+    opacity: 0%;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+
+.background-img-content{
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 0px;
+    background-position: center
+}
+
+.page-content .title-content{
+    
+    background-image: url("./../images/image.svg");
+    padding-top: 150px;
+    height: 403px;
+    width: 100%;
+}
+
+.title-content>h1{
+    font-size: 72px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.problem-content{
+    width: 50%;
+    font-size: 32px;
+    margin: 47px auto 92px;
+}
+
+.hero-content{
+    height: 483px;
+    font-style: italic;
+    background-image: url("./../images/image2.svg");
+    padding-top: 120px;
+}
+
+.intro-content{
+    width: 50%;
+    margin: 48px auto;
+    font-size: 32px;
+}
+
+.team-content{
+    padding: 68px 0px;
+}
+
+table{
+    margin: 0px auto;
+}
+
+.team-content .team-member{
+    line-height: 10px;
+    text-align: center;
+    padding: 0px 105px 80px;
+}
+
+.footer-content{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 52px;
+    background-color: #333333;
+    height: 176px;
+    color: white;
+}

@@ -1,0 +1,48 @@
+body{font-family: sans-serif;}
+h2, h3{color: #007765;}
+
+.page-header{
+    color: white;
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #007765;
+    height: 84px;
+    width: 100%;
+    margin: 0px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#header-logo{
+    position: static;
+    top: 0px;
+    left: 0px;
+    height: 45px;
+    margin: 20px auto 20px 25%;
+}
+
+.page-header .header-content{
+    position: static;
+    top: 0px;
+    right: 0px;
+    
+    padding: 0px 0px;
+    margin: 28px 20% 28px auto;
+    font-size: 24px;
+}
+
+.header-content>p{
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.header-content a{
+    color: white;
+    text-decoration: none;
+}
