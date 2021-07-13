@@ -1,0 +1,221 @@
+.banner{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 364px;
+
+    background-image: url('./../../assets/page/banner.png');
+    background-position: center;
+    background-size: cover;
+    
+    margin-top: 72px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.banner .banner-card{
+    box-shadow: 0px 0px 10px #888;
+    background-color: #FFF;
+    height: 204px;
+    width: 389px;
+    padding: 38px;
+    border-radius: 3px;
+}
+
+.banner .banner-card>div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 54px;
+}
+
+.banner .banner-card h1{
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px;
+}
+
+.banner .banner-card p{
+    font-size: 14px;
+    color: #626262;
+    line-height: 16px;
+    padding: 0px;
+}
+
+.banner .banner-card button{
+    height: 32px;
+    width: 100px;
+
+    border: 0px;
+    border-radius: 16px;
+    background-color: #262626;
+    color: #FFF;
+}
+
+/* ______________________________________________________________________________ */
+.collapse-items-menu a, .menu .menu-content a{text-decoration: none;color: #626262;}
+
+.menu{
+    box-shadow: 2px 0px 4px #CCC;
+    height: 80px;
+    background-color: #FFF;
+}
+
+.menu .menu-content{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+.menu .menu-content p{
+    padding: 32px 40px 29px 0px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/* ______________________________________________________________________________ */
+
+.main-items .row a{text-decoration: none;color: #000;}
+
+.collapse-items-menu{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 42px;
+}
+.collapse-items-menu #collapse-button{
+    border: 0px;
+    background-color: #FFF;   
+    font-size: 22px;
+    font-weight: 400;
+    height: 34px;
+    width: 84px;
+    margin-bottom: 12px;
+}
+.collapse-items-menu #menu-collapse{
+    text-align: center;
+    margin-top: 12px ;
+}
+.collapse-items-menu a{font-size: 22px;}
+
+.main-items{
+    margin-top: 56px;
+    margin-bottom: 31px;
+}
+
+.card-item{
+    box-shadow: 2px 2px 4px #CCC;
+    height: 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.card-item>div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: flex-start;
+}
+
+.card-item .price-inner{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+.card-item p{padding: 0px;}
+
+
+/* ______________________________________________________________________________ */
+
+
+@media screen and (max-width: 575px) {
+    .banner{height: 255px;}
+    .banner .banner-card{
+        height: 180px;
+        width: 100%;
+        margin-top: 51px;
+        padding: 24px 49px;
+    }
+
+    .banner .banner-card>h1{font-size: 24px;text-align: center;line-height: 28px;}
+    .banner .banner-card>div{
+        padding-top: 38px;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner .banner-card button{
+        margin-top: 16px;
+        width: 98px;
+        font-size: 12px;
+    }
+
+    .main-items{margin-top: 112px;}
+    .card-item{height: 102px;}
+    .card-item>div{padding: 0px 0px 16px 0px;}
+
+    .menu, .main-items>h2{display: none;}
+    .collapse-items-menu{display: flex;}
+}
+
+@media screen and (min-width: 576px) {
+    .banner .banner-card{
+        height: 204px;
+        width: 432px;
+        padding: 38px 48px;
+    }
+    .banner .banner-card>h1{font-size: 36px;text-align: left;}
+    .banner .banner-card button{
+        width: 94px;
+        font-size: 12px;
+    }
+
+    .card-item{height: 160px;}
+    .card-item>div{padding: 16px;}
+
+    .menu, .main-items>h2{display: block;}
+    .collapse-items-menu{display: none;}
+}
+
+@media screen and (min-width: 768px) {
+    .banner .banner-card{
+        height: 204px;
+        width: 432px;
+        padding: 38px 48px;
+    }
+    .banner .banner-card>h1{font-size: 36px;text-align: left;}
+    .banner .banner-card button{
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .card-item{height: 160px;}
+    .card-item>div{padding: 16px;}
+
+    .menu, .main-items>h2{display: block;}
+    .collapse-items-menu{display: none;}
+}
+
+
+@media screen and (min-width: 992px) {
+    .banner .banner-card{
+        height: 204px;
+        width: 389px;
+        padding: 38px;
+    }
+    .banner .banner-card>h1{font-size: 36px;text-align: left;}
+    .banner .banner-card button{
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .card-item{height: 160px;}
+    .card-item>div{padding: 16px;}
+
+    .menu, .main-items>h2{display: block;}
+    .collapse-items-menu{display: none;}
+}
